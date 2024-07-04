@@ -1,0 +1,111 @@
+/************mode jour************/
+.modejour {
+    background-image: linear-gradient( 109.6deg,  rgba(220, 233, 252, 1) 11.2%, rgba(255,255,255,1) 92.2% );
+    color: #0e0e4e;
+}
+
+body.modejour > .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    background-color: rgba(255, 255, 255, 0.39);
+}
+body.modejour > th, tr, td{
+    color: black;
+}
+body.modejour > .accordion-item{
+    background-color: ghostwhite;
+
+}
+body.modejour > #carddiv{
+    background-color: #F8F8FFFF;
+}
+
+body.modejour > .nav-link {
+    color: black;
+}
+
+/************mode nuit************/
+.modenuit {
+    background-image: linear-gradient( 109.6deg, rgb(18, 19, 40) 11.2%, rgb(75, 77, 122) 92.2% );
+    color: #cccccc;
+}
+
+/************body************/
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+}
+
+#bienvenu{
+    padding: 20px;
+    text-align: justify;
+}
+/************Formulaire************/
+.form-check-input:checked{
+    background-color: black;
+    border-color: white;
+
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/************Formulaire de suggestion************/
+#carddiv {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    border-radius: 10px;
+}
+
+#suggbutton {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+
+/************Bouton d'envoie************/
+input[type="submit"] {
+    background-color: #8d959a;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+
+/************Footer************/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: auto;
+}
+footer > div > img{
+    width: 50px;
+}
+footer > div > p {
+    color: #cccccc;
+
+}
